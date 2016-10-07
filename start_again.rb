@@ -1,3 +1,13 @@
+@cache = [0,1]
+
+def fib(n)
+	return @cache[n] if @cache[n]
+	return @cache[n] = fib(n-1) + fib(n-2)
+end
+
+puts fib(7)
+
+
 def fibo(n)
 	if n < 2
 		n
@@ -6,7 +16,7 @@ def fibo(n)
 	end
 end
 
-puts fibo(7)
+# puts fibo(7)
 
 def fibo_list_i(n)
 	sequence = []
@@ -20,7 +30,7 @@ def fibo_list_i(n)
 	sequence
 end
 
-puts fibo_list_i(7).join(", ")
+# puts fibo_list_i(7).join(", ")
 
 def fact(n)
 	return 1 if (0..1).include?(n)
