@@ -45,7 +45,7 @@ puts "*" * 30
 def flattah(arra)
 	return arra if arra.length == 1
 	arra[0].join
-	flattah(arra)
+	flattah()
 end
 
 puts flattah([[1, 2], [3, 4]]) 
