@@ -1,3 +1,14 @@
+def fib_list(n, list=[])
+	return n if n < 2
+	list << (fib_list(n-1) + fib_list(n-2))
+	fib_list(n-1) + fib_list(n-2)
+end
+
+puts fib_list(7)
+
+
+
+
 @cache = [0,1]
 
 def fib(n)
@@ -5,7 +16,7 @@ def fib(n)
 	return @cache[n] = fib(n-1) + fib(n-2)
 end
 
-puts fib(7)
+# puts fib(7)
 
 
 def fibo(n)
