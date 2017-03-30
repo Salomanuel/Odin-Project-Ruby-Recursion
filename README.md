@@ -1,4 +1,4 @@
- Course List >> Ruby Programming >> A Bit of Computer Science >> [2: Recursive Methods]](http://www.theodinproject.com/courses/ruby-programming/lessons/recursive-methods)
+ Course List >> Ruby Programming >> A Bit of Computer Science >> [2: Recursive Methods](http://www.theodinproject.com/courses/ruby-programming/lessons/recursive-methods)
 
 # [Recursion](http://www.theodinproject.com/courses/ruby-programming/lessons/recursive-methods)
 
